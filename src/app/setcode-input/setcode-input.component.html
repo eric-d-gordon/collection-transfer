@@ -1,0 +1,16 @@
+<div>
+    <button (click)="setCodeNameLookup()">Search</button>
+</div>
+<div style="margin-top: 10px;">
+    <label for="edition">Edition: </label>
+    <input id="edition" [(ngModel)]="edition">
+</div>
+<div style="margin-top: 10px;">
+    <textarea [(ngModel)]="cardCollectionText" style="resize: both;"></textarea>
+</div>
+<div style="margin-top: 10px;">
+    <p>{{message}}</p>
+    <textarea [(ngModel)]="collectionCsv" style="width: 1000px"></textarea>
+</div>
+
+
